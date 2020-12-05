@@ -5,7 +5,7 @@ Take a list of domains and probe for working http and https servers.
 ## Introduction
 This is a customized version. Based on the original httprobe, several more features are added:
 * Supports scan IP segment as input
-* SUpports scanning specific ports within the IP / IP segment
+* Supports scanning specific ports within the IP / IP segment
 * Shows the title of the website (if exists)
 * Shows the status code of the respose header
 * Shows the content length of the respose data (if exists in reposnse header)
