@@ -4,12 +4,12 @@ Take a list of domains and probe for working http and https servers.
 
 ## Introduction
 This is a customized version. Based on the original httprobe, several more features are added:
-* Supports scan IP segment as input
-* Supports scanning specific ports within the IP / IP segment
-* Shows the title of the website (if exists)
-* Shows the status code of the respose header
-* Shows the content length of the respose data (if exists in reposnse header)
-* Shows whether the input ports are open
+* Supports scan IP segment as input.
+* Supports scanning specific ports within the IP / IP segment.
+* Shows the title of the website (if exists).
+* Shows the status code of the respose header.
+* Shows the content length of the respose data (if exists in reposnse header).
+* Shows whether the input ports are open.
 
 ## Original Repo:
 ```
@@ -38,6 +38,6 @@ cat domains.txt | ./httprobe -p 8080 -t 500 -s
 ```
 
 ## Others
-* If no content-length is found, shows -1
-* **Supports Chinese title**（using gbk for windows env, and utf-8 for mac/linux）
-* While using -s, by default the ':80' or ':443' will NOT be scanned
+* If no content-length is found, shows -1.
+* **Supports Chinese title** (using gbk for windows env, and utf-8 for mac/linux).
+* While using -s, by default the ':80' or ':443' will NOT be scanned.
